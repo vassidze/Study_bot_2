@@ -52,3 +52,4 @@ def callback_worker(call):
         mat = "Кинетика:" + ' ' + kin + '\n' + "Английский:" + ' ' + eng + '\n' + "Биохимия:" + ' ' + bha + '\n' + "Микра:" + ' ' + mic + '\n' + "Генинж:" + ' ' + gen + '\n'
         bot.send_message(call.message.chat.id, mat)
 
+bot.polling(none_stop=True, interval=0)
